@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from "react-dom"
+import ReactDOM from 'react-dom'
 import Card from './Card';
 import Button from './Button';
 import classes from './ErrorModal.module.css';
@@ -10,6 +10,7 @@ const Backdrop = props=>{
 }
 
 const ModalOverlay=props=>{
+  
   <Card className={classes.modal}>
         <header className={classes.header}>
           <h2>{props.title}</h2>
